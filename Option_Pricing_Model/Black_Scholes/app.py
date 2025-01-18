@@ -21,9 +21,9 @@ def black_scholes(S, K, T, r, sigma, option_type='call'):
 
 def main():
     st.title("Black-Scholes Option Pricing Model")
-    st.write("This model helps you pricing European call and put options using the Black-Scholes model. Visualize option prices with changing stock prices and volatility through heatmaps.")
+    st.write("This model calculates and pricing European call and put options. Visualize option prices with changing stock prices and volatility through heatmaps.")
 
-    st.sidebar.header("Set Your Parameters")
+    st.sidebar.header("Parameters")
     st.sidebar.write("Adjust values to see how they impact the option prices!")
 
     S = st.sidebar.number_input("Current Asset Price (S)", value=100.0, min_value=0.01)
