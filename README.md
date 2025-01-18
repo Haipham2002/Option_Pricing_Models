@@ -22,14 +22,14 @@ Với:
 <br/>
 **d<sub>2</sub> = d<sub>1</sub> - σ.sqrt(T)**
 ### 2. Ý nghĩa của các ký hiệu:
-*C: Giá của quyền chọn mua (call option).<br/>*
-*P: Giá của quyền chọn bán (put option).<br/>*
-*S<sub>0</sub>: Giá hiện tại của tài sản cơ sở (underlying asset).<br/>*
-*K: Giá thực hiện (strike price) của quyền chọn.<br/>*
-*T: Thời gian còn lại đến ngày đáo hạn (maturity) tính bằng năm.<br/>*
-*r: Lãi suất phi rủi ro liên tục (risk-free rate).<br/>*
-*σ: Độ biến động (volatility) của giá tài sản cơ sở.<br/>*
-*N(d): Hàm phân phối xác suất tích lũy chuẩn (cumulative normal distribution function), biểu thị xác suất mà biến ngẫu nhiên chuẩn hoá có giá trị nhỏ hơn hoặc bằng d.<br/>*
+***C*** *: Giá của quyền chọn mua (call option).<br/>*
+***P*** *: Giá của quyền chọn bán (put option).<br/>*
+***S<sub>0</sub>*** *: Giá hiện tại của tài sản cơ sở (underlying asset).<br/>*
+***K*** *: Giá thực hiện (strike price) của quyền chọn.<br/>*
+***T*** *: Thời gian còn lại đến ngày đáo hạn (maturity) tính bằng năm.<br/>*
+***r*** *: Lãi suất phi rủi ro liên tục (risk-free rate).<br/>*
+***σ*** *: Độ biến động (volatility) của giá tài sản cơ sở.<br/>*
+***N(d)*** *: Hàm phân phối xác suất tích lũy chuẩn (cumulative normal distribution function), biểu thị xác suất mà biến ngẫu nhiên chuẩn hoá có giá trị nhỏ hơn hoặc bằng d.<br/>*
 ### 3. Kết quả:
 Thuật toán mô hình Black-Scholes được cài đặt trong [file này](https://github.com/Haipham2002/Option_Pricing_Models/blob/main/Option_Pricing_Model/Black_Scholes/blackscholes.py)
 <br/>
